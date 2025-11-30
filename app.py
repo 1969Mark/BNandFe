@@ -60,6 +60,7 @@ with st.sidebar:
 
 # Main Content
 st.title("Drain Oil Analysis Control Limits")
+st.caption(f"Last Updated: {pd.Timestamp.now()}")
 
 if selected_fuel == "All" or selected_bn == "All":
     st.info("Please select a specific Category and BN Target to view the Control Limit Chart.")
