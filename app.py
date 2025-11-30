@@ -166,5 +166,7 @@ else:
 
     st.plotly_chart(fig, use_container_width=True)
 
+st.divider()
 st.markdown("Source : Everllence Service Letter, SL2025-776/NHN")
 st.markdown("Prepared by *Mark CHUANG*")
+st.caption("v1.1")
